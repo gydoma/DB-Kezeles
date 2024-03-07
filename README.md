@@ -3,24 +3,36 @@
 ## Relációs (adat)model
 
 <u>Mező:</u> Egy cellája a táblának
+
 <u>Rekord:</u> Egy sora a táblának
+
 <u>Reláció:</u> Azonos típusú rekord, névvel ellátott halmaz
+
 <u>Adatbázis:</u> Összetartozó relációk
+
 <u>Egyedtípus:</u> Bármi amiről adatot rögzítünk
+
 <u>Egyedhalmaz:</u> A reláció rekordjainak egy összessége
+
 <u>Egyedérték:</u> Egy adott rekord
+
 <u>Kulcs:</u> Olyan attribútum, amely egyértelműen meghatároz egy rekord
-    - <u>Egyszerű kulcs:</u> attribútum, amely önmagában meghatároz egy rekordot
-    - <u>Összetett kulcs:</u> attribútum összessége, amik csak egy rekordot határoz meg
-    - <u>Elsődleges kulcs:</u> meghatározott kulcs egy reláción
-    - <u>Külső kulcs: </u> elsődleges kulcs egy másik reláción
+
+- <u>Egyszerű kulcs:</u> attribútum, amely önmagában meghatároz egy rekordot
+    
+- <u>Összetett kulcs:</u> attribútum összessége, amik csak egy rekordot határoz meg
+    
+- <u>Elsődleges kulcs:</u> meghatározott kulcs egy reláción
+    
+- <u>Külső kulcs: </u> elsődleges kulcs egy másik reláción
+
 <u>Adatmodell:</u> Szerkezeti leírás, ábrázolás _pl.: ER-modell, relációs modell, relációs séma_
 
 ---
 
 ### ER-modell példák
 ---
-```Mermaid
+```mermaid
 flowchart TB
     subgraph 1
         H(Egyedtípus)
@@ -44,9 +56,8 @@ flowchart TB
 ```
 ---
 ### ER-Modell
-```Mermaid
-flowchart RL
-    subgraph ER-Modell Példa
+```mermaid
+flowchart TB
     D((Dátum))
     B(Autó)
     A{Birtokba Vétel}
@@ -75,8 +86,6 @@ flowchart RL
     C --- J
     C --- K
     C --- L
-
-    end
 ```
 
 ## Relációs Modell
